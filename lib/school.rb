@@ -10,7 +10,7 @@ class School
   
   def add_student(name, grade)
     if @roster[grade]
-    key << name 
+    @roster[grade] << name 
     binding.pry 
   else
     @roster[grade] = []
