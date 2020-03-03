@@ -1,3 +1,4 @@
+require 'pry'
 class School
   
   attr_accessor :name, :roster, :grade 
@@ -11,6 +12,7 @@ class School
     if @roster.any? do |key, value|
     key == grade 
     key << name 
+    binding.pry 
   else
     @roster[grade] = []
     @roster[grade] << name 
