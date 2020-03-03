@@ -10,7 +10,7 @@ class School
   def add_student(name, grade)
     @roster[grade] = []
     @roster[grade] << name 
-    @roster.detect 
+    @roster.any? |
   end
   
 end
