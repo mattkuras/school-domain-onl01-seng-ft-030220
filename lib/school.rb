@@ -22,7 +22,7 @@ end
   end
 
   def sort 
-    @roster[]
+    @roster.each |key
   end
 
 end
