@@ -22,8 +22,9 @@ end
   end
 
   def sort 
-    @roster.each |key, array|
-    array.each 
+    @roster.each do |key, array|
+    array.sort 
+  end 
   end
 
 end
