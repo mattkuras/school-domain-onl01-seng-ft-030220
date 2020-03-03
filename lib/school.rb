@@ -8,7 +8,7 @@ class School
   end
   
   def add_student(name, grade)
-    if @roster.any? |key, value|
+    if @roster.any? do |key, value|
     key == grade 
     key << name 
   else
