@@ -13,7 +13,7 @@ class School
     key == grade 
     key << name 
     binding.pry 
-  if else
+  else
     @roster[grade] = []
     @roster[grade] << name 
   end
