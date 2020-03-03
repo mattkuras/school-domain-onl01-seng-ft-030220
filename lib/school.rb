@@ -20,5 +20,8 @@ end
   def grade(num)
     @roster[num]
   end
-  
+  binding.pry
+  def sort 
+    @roster
+  end
 end
